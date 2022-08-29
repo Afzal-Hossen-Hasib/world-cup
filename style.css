@@ -278,7 +278,6 @@ footer h1 {
 
 
 /* Responsive For Mobile */
-
 @media screen and (max-width: 600px) {
 
     .main_container {
@@ -301,6 +300,8 @@ footer h1 {
     .para{
         text-align: center;
         font-size: 18px;
+        text-overflow: ellipsis;
+        overflow: hidden;
     }
 
     .button {
