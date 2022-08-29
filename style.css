@@ -57,6 +57,7 @@
     border-radius: 10px;
     color: white;
     font-size: 25px;
+    border: none;
 }
 /* End Header Section  */
 
@@ -103,6 +104,7 @@
     font-weight: bold;
     font-size: 20px;
     border-radius: 10px;
+    border: none;
 }
 
 .upcomung_button a {
@@ -117,6 +119,7 @@
     font-weight: bold;
     font-size: 20px;
     border-radius: 10px;
+    border: none;
 }
 
 .blog_button {
@@ -128,6 +131,7 @@
     border-radius: 10px;
     background-color: red;
     color: white;
+    border: none;
 }
 
 .transfer_section {
@@ -174,6 +178,7 @@
 }
 /* End Blog Section  */
 
+/* Match Section  */
 .match_container {
     display: flex;
     align-items: center;
@@ -184,6 +189,10 @@
     width: 35%;
     margin-left: 15px;
     margin-right: 15px;
+}
+
+.match_section {
+    padding: 20px;
 }
 
 .match_time h4 {
@@ -216,7 +225,9 @@
     font-size: 20px;
     border-radius: 10px;
 }
+/* End Match Section */
 
+/* Footer Section  */
 .footer_container ul {
     display: flex;
     justify-content: center;
@@ -227,7 +238,7 @@
     margin-right: 50px;
     color: #B9B9B9;
     margin-top: 50px;
-    margin-bottom: 130px;
+    margin-bottom: 50px;
 }
 
 .footer_break {
@@ -246,6 +257,24 @@ footer h1 {
     margin-bottom: 50px;
     padding-top: 130px;
 }
+
+.social-media ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+
+.social-media ul li {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.social-media ul li a {
+    font-size: 30px;
+    color: white;
+}
+/* End Footer Section  */
 
 
 /* Responsive For Mobile */
@@ -278,9 +307,15 @@ footer h1 {
      width: 65%;
      margin: 0 auto;
     }
+
+    .upcomung_button, .all_button {
+        border: 1px solid rgb(1, 29, 29);
+    }
     
     .watch_button {
-        width: 100%;
+        width: 50%;
+        display: block;
+        margin: 0 auto;
     }
 
     .image_container {
@@ -373,6 +408,13 @@ footer h1 {
         margin-bottom: 50px;
     }
     
+    .upcomung_button, .all_button {
+        border: 1px solid rgb(1, 29, 29);
+    }
+
+    .upcomung_new_button {
+        width: 90%;
+    }
   
     .live_container {
         display: flex;
